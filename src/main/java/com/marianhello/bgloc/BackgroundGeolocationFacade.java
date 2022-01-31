@@ -222,7 +222,8 @@ public class BackgroundGeolocationFacade {
 
         PermissionManager permissionManager = PermissionManager.getInstance(getContext());
         permissionManager.checkPermissions(Arrays.asList(android.os.Build.VERSION.SDK_INT <= Build.VERSION_CODES.P ? PERMISSIONS : PERMISSIONS_10), 
-            @Override
+            new PermissionManager.PermissionRequestListener() {
+	    @Override
             public void onPermissionGranted() {
                 logger.info("User granted requested permissions");
                 // watch location mode changes
