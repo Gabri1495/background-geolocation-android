@@ -1,4 +1,4 @@
-!!! Non dovrebbe più servire, dal momento che nell'altro repository è stato integrato come copia. !!!
+<b>!!! Non dovrebbe più servire, dal momento che nell'altro repository è stato integrato come copia. !!!</b>
 
 Background Geolocation for Android
 
