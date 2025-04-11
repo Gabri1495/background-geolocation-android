@@ -1,3 +1,5 @@
+!!! Non dovrebbe più servire, dal momento che nell'altro repository è stato integrato come copia. !!!
+
 Background Geolocation for Android
 
 [![CircleCI](https://circleci.com/gh/mauron85/background-geolocation-android/tree/master.svg?style=shield)](https://circleci.com/gh/mauron85/background-geolocation-android/tree/master)
